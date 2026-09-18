@@ -1,0 +1,674 @@
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:01 | validate_erd | INFO | S001 图已存: S001_erd_tfr.png / S001_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:03 | validate_erd | INFO | S002 图已存: S002_erd_tfr.png / S002_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:05 | validate_erd | INFO | S003 图已存: S003_erd_tfr.png / S003_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:07 | validate_erd | INFO | S004 图已存: S004_erd_tfr.png / S004_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:09 | validate_erd | INFO | S005 图已存: S005_erd_tfr.png / S005_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:11 | validate_erd | INFO | S006 图已存: S006_erd_tfr.png / S006_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:13 | validate_erd | INFO | S007 图已存: S007_erd_tfr.png / S007_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:15 | validate_erd | INFO | S008 图已存: S008_erd_tfr.png / S008_erd_topo.png
+/Users/erqian/Desktop/util_udf/mi_decoder/src/validate_erd.py:86: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+/Users/erqian/Desktop/util_udf/mi_decoder/src/validate_erd.py:86: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+12:18:15 | validate_erd | WARNING | S009 有效试次过少 {}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:16 | validate_erd | INFO | S010 图已存: S010_erd_tfr.png / S010_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:18 | validate_erd | INFO | S011 图已存: S011_erd_tfr.png / S011_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:20 | validate_erd | INFO | S012 图已存: S012_erd_tfr.png / S012_erd_topo.png
+12:18:20 | validate_erd | WARNING | S013 有效试次过少 {'left': 1, 'right': 0}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:22 | validate_erd | INFO | S014 图已存: S014_erd_tfr.png / S014_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:24 | validate_erd | INFO | S015 图已存: S015_erd_tfr.png / S015_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:26 | validate_erd | INFO | S016 图已存: S016_erd_tfr.png / S016_erd_topo.png
+12:18:26 | validate_erd | WARNING | S017 有效试次过少 {'left': 2, 'right': 4}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:28 | validate_erd | INFO | S018 图已存: S018_erd_tfr.png / S018_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:29 | validate_erd | INFO | S019 图已存: S019_erd_tfr.png / S019_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:31 | validate_erd | INFO | S020 图已存: S020_erd_tfr.png / S020_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:33 | validate_erd | INFO | S021 图已存: S021_erd_tfr.png / S021_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:35 | validate_erd | INFO | S022 图已存: S022_erd_tfr.png / S022_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:36 | validate_erd | INFO | S023 图已存: S023_erd_tfr.png / S023_erd_topo.png
+12:18:36 | validate_erd | WARNING | S024 有效试次过少 {'left': 3, 'right': 1}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:38 | validate_erd | INFO | S025 图已存: S025_erd_tfr.png / S025_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:40 | validate_erd | INFO | S026 图已存: S026_erd_tfr.png / S026_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:42 | validate_erd | INFO | S027 图已存: S027_erd_tfr.png / S027_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:43 | validate_erd | INFO | S028 图已存: S028_erd_tfr.png / S028_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:45 | validate_erd | INFO | S029 图已存: S029_erd_tfr.png / S029_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:48 | validate_erd | INFO | S030 图已存: S030_erd_tfr.png / S030_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:50 | validate_erd | INFO | S031 图已存: S031_erd_tfr.png / S031_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:51 | validate_erd | INFO | S032 图已存: S032_erd_tfr.png / S032_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:53 | validate_erd | INFO | S033 图已存: S033_erd_tfr.png / S033_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:55 | validate_erd | INFO | S034 图已存: S034_erd_tfr.png / S034_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:57 | validate_erd | INFO | S035 图已存: S035_erd_tfr.png / S035_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:18:59 | validate_erd | INFO | S036 图已存: S036_erd_tfr.png / S036_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:00 | validate_erd | INFO | S037 图已存: S037_erd_tfr.png / S037_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:02 | validate_erd | INFO | S038 图已存: S038_erd_tfr.png / S038_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:03 | validate_erd | INFO | S039 图已存: S039_erd_tfr.png / S039_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:05 | validate_erd | INFO | S040 图已存: S040_erd_tfr.png / S040_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:07 | validate_erd | INFO | S041 图已存: S041_erd_tfr.png / S041_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:09 | validate_erd | INFO | S042 图已存: S042_erd_tfr.png / S042_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:11 | validate_erd | INFO | S043 图已存: S043_erd_tfr.png / S043_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:12 | validate_erd | INFO | S044 图已存: S044_erd_tfr.png / S044_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:13 | validate_erd | INFO | S045 图已存: S045_erd_tfr.png / S045_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:15 | validate_erd | INFO | S046 图已存: S046_erd_tfr.png / S046_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:17 | validate_erd | INFO | S047 图已存: S047_erd_tfr.png / S047_erd_topo.png
+/Users/erqian/Desktop/util_udf/mi_decoder/src/validate_erd.py:86: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+/Users/erqian/Desktop/util_udf/mi_decoder/src/validate_erd.py:86: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+12:19:17 | validate_erd | WARNING | S048 有效试次过少 {}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:19 | validate_erd | INFO | S049 图已存: S049_erd_tfr.png / S049_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:21 | validate_erd | INFO | S050 图已存: S050_erd_tfr.png / S050_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:22 | validate_erd | INFO | S051 图已存: S051_erd_tfr.png / S051_erd_topo.png
+12:19:22 | validate_erd | WARNING | S052 有效试次过少 {'left': 7, 'right': 4}, 跳过ERD验证
+/Users/erqian/Desktop/util_udf/mi_decoder/src/validate_erd.py:86: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+/Users/erqian/Desktop/util_udf/mi_decoder/src/validate_erd.py:86: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+12:19:22 | validate_erd | WARNING | S053 有效试次过少 {}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:24 | validate_erd | INFO | S054 图已存: S054_erd_tfr.png / S054_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:26 | validate_erd | INFO | S055 图已存: S055_erd_tfr.png / S055_erd_topo.png
+12:19:26 | validate_erd | WARNING | S056 有效试次过少 {'left': 12, 'right': 4}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:27 | validate_erd | INFO | S057 图已存: S057_erd_tfr.png / S057_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:29 | validate_erd | INFO | S058 图已存: S058_erd_tfr.png / S058_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:31 | validate_erd | INFO | S059 图已存: S059_erd_tfr.png / S059_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:33 | validate_erd | INFO | S060 图已存: S060_erd_tfr.png / S060_erd_topo.png
+12:19:33 | validate_erd | WARNING | S061 有效试次过少 {'left': 2, 'right': 2}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:35 | validate_erd | INFO | S062 图已存: S062_erd_tfr.png / S062_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:36 | validate_erd | INFO | S063 图已存: S063_erd_tfr.png / S063_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:38 | validate_erd | INFO | S064 图已存: S064_erd_tfr.png / S064_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:40 | validate_erd | INFO | S065 图已存: S065_erd_tfr.png / S065_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:42 | validate_erd | INFO | S066 图已存: S066_erd_tfr.png / S066_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:44 | validate_erd | INFO | S067 图已存: S067_erd_tfr.png / S067_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:46 | validate_erd | INFO | S068 图已存: S068_erd_tfr.png / S068_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:48 | validate_erd | INFO | S069 图已存: S069_erd_tfr.png / S069_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:50 | validate_erd | INFO | S070 图已存: S070_erd_tfr.png / S070_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:52 | validate_erd | INFO | S071 图已存: S071_erd_tfr.png / S071_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:54 | validate_erd | INFO | S072 图已存: S072_erd_tfr.png / S072_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:56 | validate_erd | INFO | S073 图已存: S073_erd_tfr.png / S073_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:57 | validate_erd | INFO | S074 图已存: S074_erd_tfr.png / S074_erd_topo.png
+12:19:57 | validate_erd | WARNING | S075 有效试次过少 {'left': 2, 'right': 2}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:19:59 | validate_erd | INFO | S076 图已存: S076_erd_tfr.png / S076_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:01 | validate_erd | INFO | S077 图已存: S077_erd_tfr.png / S077_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:03 | validate_erd | INFO | S078 图已存: S078_erd_tfr.png / S078_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:04 | validate_erd | INFO | S079 图已存: S079_erd_tfr.png / S079_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:06 | validate_erd | INFO | S080 图已存: S080_erd_tfr.png / S080_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:08 | validate_erd | INFO | S081 图已存: S081_erd_tfr.png / S081_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:10 | validate_erd | INFO | S082 图已存: S082_erd_tfr.png / S082_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:12 | validate_erd | INFO | S083 图已存: S083_erd_tfr.png / S083_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:13 | validate_erd | INFO | S084 图已存: S084_erd_tfr.png / S084_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:15 | validate_erd | INFO | S085 图已存: S085_erd_tfr.png / S085_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:16 | validate_erd | INFO | S086 图已存: S086_erd_tfr.png / S086_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:17 | validate_erd | INFO | S087 图已存: S087_erd_tfr.png / S087_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:19 | validate_erd | INFO | S089 图已存: S089_erd_tfr.png / S089_erd_topo.png
+12:20:19 | validate_erd | WARNING | S090 有效试次过少 {'left': 1, 'right': 1}, 跳过ERD验证
+/Users/erqian/Desktop/util_udf/mi_decoder/src/validate_erd.py:86: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+/Users/erqian/Desktop/util_udf/mi_decoder/src/validate_erd.py:86: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+12:20:19 | validate_erd | WARNING | S091 有效试次过少 {}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:21 | validate_erd | INFO | S093 图已存: S093_erd_tfr.png / S093_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:23 | validate_erd | INFO | S094 图已存: S094_erd_tfr.png / S094_erd_topo.png
+12:20:23 | validate_erd | WARNING | S095 有效试次过少 {'left': 4, 'right': 4}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:25 | validate_erd | INFO | S096 图已存: S096_erd_tfr.png / S096_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:27 | validate_erd | INFO | S097 图已存: S097_erd_tfr.png / S097_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:29 | validate_erd | INFO | S098 图已存: S098_erd_tfr.png / S098_erd_topo.png
+12:20:29 | validate_erd | WARNING | S099 有效试次过少 {'left': 3, 'right': 3}, 跳过ERD验证
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:31 | validate_erd | INFO | S101 图已存: S101_erd_tfr.png / S101_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:32 | validate_erd | INFO | S102 图已存: S102_erd_tfr.png / S102_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:34 | validate_erd | INFO | S103 图已存: S103_erd_tfr.png / S103_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:36 | validate_erd | INFO | S104 图已存: S104_erd_tfr.png / S104_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:38 | validate_erd | INFO | S105 图已存: S105_erd_tfr.png / S105_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:40 | validate_erd | INFO | S106 图已存: S106_erd_tfr.png / S106_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:41 | validate_erd | INFO | S107 图已存: S107_erd_tfr.png / S107_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:42 | validate_erd | INFO | S108 图已存: S108_erd_tfr.png / S108_erd_topo.png
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+Applying baseline correction (mode: percent)
+No baseline correction applied
+Applying baseline correction (mode: percent)
+No baseline correction applied
+12:20:43 | validate_erd | INFO | S109 图已存: S109_erd_tfr.png / S109_erd_topo.png

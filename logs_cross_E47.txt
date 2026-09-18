@@ -1,0 +1,50 @@
+22:18:50 | decode_cross_subject | INFO | device = mps
+22:18:50 | decode_cross_subject | INFO | 可用 88 人 -> 训练 70 人 / 测试 18 人: [1, 5, 12, 15, 22, 27, 31, 38, 65, 77, 78, 80, 81, 94, 98, 101, 105, 106]
+22:18:50 | decode_cross_subject | INFO | == 模型族 eegnet: ['E4', 'E7'] | 频带 [[1, 40]] | 对齐 ['euclid']
+22:19:02 | decode_cross_subject | INFO | 训练被试 70 人, 共 15740 个训练窗
+22:19:05 | decode_cross_subject | INFO | 测试被试 18 人
+22:19:06 | decode_cross_subject | INFO | [E4] EEGNet 拟合 62 人/13940 窗, 验证 8 人/1800 窗
+/Users/erqian/Desktop/util_udf/mi_decoder/.venv/lib/python3.12/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/Users/erqian/Desktop/util_udf/mi_decoder/.venv/lib/python3.12/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+22:23:45 | decode_cross_subject | INFO | [E4] 训练完成: eegnet | 70 人 / 15740 窗 | align=None adaptive=False
+22:23:46 | decode_cross_subject | INFO | [E4] S001 | acc_at_end=0.689 | best=0.756 @1.75s | rest FPR=0.40
+22:23:47 | decode_cross_subject | INFO | [E4] S005 | acc_at_end=0.444 | best=0.578 @1.00s | rest FPR=0.12
+22:23:48 | decode_cross_subject | INFO | [E4] S012 | acc_at_end=0.556 | best=0.711 @0.75s | rest FPR=0.09
+22:23:49 | decode_cross_subject | INFO | [E4] S015 | acc_at_end=0.711 | best=0.889 @2.50s | rest FPR=0.58
+22:23:50 | decode_cross_subject | INFO | [E4] S022 | acc_at_end=0.511 | best=0.778 @2.50s | rest FPR=0.26
+22:23:51 | decode_cross_subject | INFO | [E4] S027 | acc_at_end=0.444 | best=0.644 @2.50s | rest FPR=0.50
+22:23:52 | decode_cross_subject | INFO | [E4] S031 | acc_at_end=0.644 | best=0.867 @2.50s | rest FPR=0.18
+22:23:53 | decode_cross_subject | INFO | [E4] S038 | acc_at_end=0.511 | best=0.622 @1.75s | rest FPR=0.25
+22:23:54 | decode_cross_subject | INFO | [E4] S065 | acc_at_end=0.667 | best=0.733 @2.75s | rest FPR=0.37
+22:23:55 | decode_cross_subject | INFO | [E4] S077 | acc_at_end=0.444 | best=0.756 @2.50s | rest FPR=0.60
+22:23:56 | decode_cross_subject | INFO | [E4] S078 | acc_at_end=0.600 | best=0.600 @2.75s | rest FPR=0.19
+22:23:57 | decode_cross_subject | INFO | [E4] S080 | acc_at_end=0.467 | best=0.600 @1.50s | rest FPR=0.29
+22:23:58 | decode_cross_subject | INFO | [E4] S081 | acc_at_end=0.600 | best=0.644 @2.50s | rest FPR=0.11
+22:23:59 | decode_cross_subject | INFO | [E4] S094 | acc_at_end=0.622 | best=0.667 @3.25s | rest FPR=0.84
+22:24:00 | decode_cross_subject | INFO | [E4] S098 | acc_at_end=0.578 | best=0.578 @4.00s | rest FPR=0.23
+22:24:01 | decode_cross_subject | INFO | [E4] S101 | acc_at_end=0.444 | best=0.889 @2.50s | rest FPR=0.35
+22:24:02 | decode_cross_subject | INFO | [E4] S105 | acc_at_end=0.667 | best=0.933 @2.50s | rest FPR=0.33
+22:24:03 | decode_cross_subject | INFO | [E4] S106 | acc_at_end=0.622 | best=0.689 @0.50s | rest FPR=0.52
+22:24:05 | decode_cross_subject | INFO | [E7] EEGNet 拟合 62 人/13940 窗, 验证 8 人/1800 窗
+22:28:15 | decode_cross_subject | INFO | [E7] 训练完成: eegnet | 70 人 / 15740 窗 | align=euclid adaptive=False
+22:28:16 | decode_cross_subject | INFO | [E7] S001 | acc_at_end=0.689 | best=0.711 @3.50s | rest FPR=0.40
+22:28:17 | decode_cross_subject | INFO | [E7] S005 | acc_at_end=0.467 | best=0.644 @1.00s | rest FPR=0.14
+22:28:18 | decode_cross_subject | INFO | [E7] S012 | acc_at_end=0.622 | best=0.689 @3.00s | rest FPR=0.37
+22:28:19 | decode_cross_subject | INFO | [E7] S015 | acc_at_end=0.822 | best=0.844 @2.50s | rest FPR=0.57
+22:28:20 | decode_cross_subject | INFO | [E7] S022 | acc_at_end=0.533 | best=0.600 @0.75s | rest FPR=0.33
+22:28:21 | decode_cross_subject | INFO | [E7] S027 | acc_at_end=0.622 | best=0.756 @1.75s | rest FPR=0.43
+22:28:23 | decode_cross_subject | INFO | [E7] S031 | acc_at_end=0.600 | best=0.822 @1.50s | rest FPR=0.27
+22:28:24 | decode_cross_subject | INFO | [E7] S038 | acc_at_end=0.533 | best=0.622 @2.25s | rest FPR=0.29
+22:28:25 | decode_cross_subject | INFO | [E7] S065 | acc_at_end=0.600 | best=0.733 @2.00s | rest FPR=0.30
+22:28:26 | decode_cross_subject | INFO | [E7] S077 | acc_at_end=0.578 | best=0.667 @2.50s | rest FPR=0.43
+22:28:27 | decode_cross_subject | INFO | [E7] S078 | acc_at_end=0.533 | best=0.622 @3.75s | rest FPR=0.36
+22:28:28 | decode_cross_subject | INFO | [E7] S080 | acc_at_end=0.578 | best=0.667 @1.25s | rest FPR=0.39
+22:28:29 | decode_cross_subject | INFO | [E7] S081 | acc_at_end=0.511 | best=0.578 @1.75s | rest FPR=0.59
+22:28:30 | decode_cross_subject | INFO | [E7] S094 | acc_at_end=0.711 | best=0.822 @2.25s | rest FPR=0.56
+22:28:31 | decode_cross_subject | INFO | [E7] S098 | acc_at_end=0.489 | best=0.644 @2.50s | rest FPR=0.47
+22:28:32 | decode_cross_subject | INFO | [E7] S101 | acc_at_end=0.444 | best=0.622 @2.50s | rest FPR=0.25
+22:28:33 | decode_cross_subject | INFO | [E7] S105 | acc_at_end=0.600 | best=0.778 @2.50s | rest FPR=0.43
+22:28:34 | decode_cross_subject | INFO | [E7] S106 | acc_at_end=0.556 | best=0.644 @0.50s | rest FPR=0.33
+22:28:34 | decode_cross_subject | INFO | 均值(测试 18 人): 被试内CSP(W4)=0.615 | 被试内EEGNet(W5)=0.536 | E4 acc_at_end=0.568 best=0.719 restFPR=0.34 | E7 acc_at_end=0.583 best=0.693 restFPR=0.38 -> /Users/erqian/Desktop/util_udf/mi_decoder/results/metrics/cross_subject_online.csv

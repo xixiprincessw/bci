@@ -1,0 +1,64 @@
+# ============ MI-Decoder 全局配置 ============
+# 所有模块共用；改参数只改这里，不改代码
+
+data:
+  # 被试EDF读取根目录(已下载好, 直接离线读取, 不走MNE_DATA/联网)
+  # 目录结构: <data_root>/Sxxx/SxxxRrr.edf
+  data_root: /Users/erqian/Desktop/util_udf/physionet.org/files/eegmmidb/1.0.0
+  n_subjects: 109                 # 批量处理前 N 个被试
+  exclude_subjects: [88, 92, 100] # 采样率异常(128Hz)的被试，跳过
+  runs: [4, 8, 12]                # 运动想象: T1=左手, T2=右手
+  event_id:
+    left: 2                       # events_from_annotations: T0->1, T1->2, T2->3
+    right: 3
+
+preprocess:
+  l_freq: 1.0                     # 高通: 去基线漂移(兼顾ICA分解质量)
+  h_freq: 45.0                    # 低通: 去高频肌电/噪声
+  bad_z_thresh: 2.6               # 坏导检测: 通道对数方差z分数阈值
+  ica_n_components: 20
+  eog_proxy_channels: [Fp1, Fp2]  # EEGBCI无EOG通道, 用额区电极做代理
+  epoch_tmin: -1.0                # 相对想象开始(秒)
+  epoch_tmax: 4.0
+  reject_eeg: 0.00035             # 350uV 幅值剔除阈值
+
+erd:
+  freq_min: 6
+  freq_max: 32
+  baseline: [-1.0, 0.0]           # ERD基线窗口(想象开始前)
+  plot_channels: [C3, C4]         # 对侧支配验证的核心电极
+
+decode:
+  band: [8, 30]                   # ERD所在频段(mu+beta)
+  crop: [0.5, 3.5]                # 特征窗口: 落在稳定ERD期, 避开beta反弹
+  csp_components: 6
+  fbcsp_bands: [[4, 8], [8, 12], [12, 16], [16, 22], [22, 30]]
+  fbcsp_components: 4
+  cv_folds: 5
+  random_state: 42
+
+eegnet:
+  band: [1, 40]                   # 宽带, 让网络自己学频率特征(模块4/5/3b共用)
+  max_epochs: 100
+  patience: 15                    # 早停
+  lr: 0.001
+  batch_size: 16
+  val_ratio: 0.2                  # 训练fold内部再切验证集
+
+pseudo_online:
+  win_sec: 2.0                    # 滑动窗口长度
+  step_sec: 0.25                  # 滑动步长
+  train_ratio: 0.7                # 前70%试次训练, 后30%做流式测试
+  offsets: [0.5, 4.0, 0.25]       # 评估offset扫描: start, stop, step (相对想象开始)
+  conf_threshold: 0.7             # 静息期误触发判定的置信度阈值
+  eegnet_train_step_sec: 0.25     # EEGNet输入长度固定=win_sec, 训练窗在crop内按此步长滑动取样
+  adapt_eta: 0.05                 # 在线自适应LDA: 类均值伪标签更新步长
+
+cross_subject:
+  test_ratio: 0.2                 # 可用被试按 random_state 随机排列, 20% 做测试(88 -> 18人)
+  eegnet_val_subjects: 8          # EEGNet 早停验证集: 从训练被试中按人留出
+
+paths:
+  processed_dir: results/processed
+  fig_dir: results/figures
+  metrics_dir: results/metrics
