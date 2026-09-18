@@ -1,0 +1,103 @@
+22:14:26 | decode_cross_subject | INFO | 可用 88 人 -> 训练 70 人 / 测试 18 人: [1, 5, 12, 15, 22, 27, 31, 38, 65, 77, 78, 80, 81, 94, 98, 101, 105, 106]
+22:14:26 | decode_cross_subject | INFO | == 模型族 csp: ['E1', 'E5', 'E8'] | 频带 [[8, 30]] | 对齐 ['euclid']
+22:14:37 | decode_cross_subject | INFO | 训练被试 70 人, 共 3148 个训练窗
+22:14:40 | decode_cross_subject | INFO | 测试被试 18 人
+22:14:46 | decode_cross_subject | INFO | [E1] 训练完成: csp | 70 人 / 3148 窗 | align=None adaptive=False
+22:14:46 | decode_cross_subject | INFO | [E1] S001 | acc_at_end=0.622 | best=0.689 @1.75s | rest FPR=0.05
+22:14:46 | decode_cross_subject | INFO | [E1] S005 | acc_at_end=0.467 | best=0.467 @0.50s | rest FPR=0.94
+22:14:46 | decode_cross_subject | INFO | [E1] S012 | acc_at_end=0.467 | best=0.489 @1.50s | rest FPR=0.34
+22:14:47 | decode_cross_subject | INFO | [E1] S015 | acc_at_end=0.489 | best=0.689 @1.00s | rest FPR=0.18
+22:14:47 | decode_cross_subject | INFO | [E1] S022 | acc_at_end=0.511 | best=0.711 @0.75s | rest FPR=0.02
+22:14:47 | decode_cross_subject | INFO | [E1] S027 | acc_at_end=0.489 | best=0.689 @2.00s | rest FPR=0.26
+22:14:47 | decode_cross_subject | INFO | [E1] S031 | acc_at_end=0.578 | best=0.622 @2.75s | rest FPR=0.23
+22:14:47 | decode_cross_subject | INFO | [E1] S038 | acc_at_end=0.578 | best=0.600 @2.25s | rest FPR=0.07
+22:14:47 | decode_cross_subject | INFO | [E1] S065 | acc_at_end=0.556 | best=0.578 @3.50s | rest FPR=0.09
+22:14:47 | decode_cross_subject | INFO | [E1] S077 | acc_at_end=0.422 | best=0.622 @2.00s | rest FPR=0.07
+22:14:47 | decode_cross_subject | INFO | [E1] S078 | acc_at_end=0.489 | best=0.622 @2.75s | rest FPR=0.14
+22:14:47 | decode_cross_subject | INFO | [E1] S080 | acc_at_end=0.600 | best=0.600 @4.00s | rest FPR=0.14
+22:14:48 | decode_cross_subject | INFO | [E1] S081 | acc_at_end=0.489 | best=0.489 @0.50s | rest FPR=0.59
+22:14:48 | decode_cross_subject | INFO | [E1] S094 | acc_at_end=0.600 | best=0.644 @2.00s | rest FPR=0.37
+22:14:48 | decode_cross_subject | INFO | [E1] S098 | acc_at_end=0.511 | best=0.511 @2.50s | rest FPR=0.34
+22:14:48 | decode_cross_subject | INFO | [E1] S101 | acc_at_end=0.489 | best=0.511 @1.50s | rest FPR=0.14
+22:14:48 | decode_cross_subject | INFO | [E1] S105 | acc_at_end=0.422 | best=0.711 @1.75s | rest FPR=0.11
+22:14:48 | decode_cross_subject | INFO | [E1] S106 | acc_at_end=0.600 | best=0.644 @1.25s | rest FPR=0.13
+22:14:54 | decode_cross_subject | INFO | [E5] 训练完成: csp | 70 人 / 3148 窗 | align=euclid adaptive=False
+22:14:55 | decode_cross_subject | INFO | [E5] S001 | acc_at_end=0.711 | best=0.800 @2.50s | rest FPR=0.36
+22:14:55 | decode_cross_subject | INFO | [E5] S005 | acc_at_end=0.444 | best=0.600 @1.50s | rest FPR=0.17
+22:14:55 | decode_cross_subject | INFO | [E5] S012 | acc_at_end=0.644 | best=0.733 @2.00s | rest FPR=0.31
+22:14:55 | decode_cross_subject | INFO | [E5] S015 | acc_at_end=0.667 | best=0.844 @2.00s | rest FPR=0.36
+22:14:56 | decode_cross_subject | INFO | [E5] S022 | acc_at_end=0.467 | best=0.711 @1.50s | rest FPR=0.37
+22:14:56 | decode_cross_subject | INFO | [E5] S027 | acc_at_end=0.556 | best=0.689 @1.25s | rest FPR=0.50
+22:14:56 | decode_cross_subject | INFO | [E5] S031 | acc_at_end=0.711 | best=0.911 @2.50s | rest FPR=0.36
+22:14:56 | decode_cross_subject | INFO | [E5] S038 | acc_at_end=0.333 | best=0.667 @1.75s | rest FPR=0.22
+22:14:57 | decode_cross_subject | INFO | [E5] S065 | acc_at_end=0.689 | best=0.733 @0.75s | rest FPR=0.27
+22:14:57 | decode_cross_subject | INFO | [E5] S077 | acc_at_end=0.444 | best=0.644 @2.50s | rest FPR=0.39
+22:14:57 | decode_cross_subject | INFO | [E5] S078 | acc_at_end=0.511 | best=0.622 @2.50s | rest FPR=0.30
+22:14:57 | decode_cross_subject | INFO | [E5] S080 | acc_at_end=0.556 | best=0.756 @1.25s | rest FPR=0.53
+22:14:58 | decode_cross_subject | INFO | [E5] S081 | acc_at_end=0.489 | best=0.622 @2.00s | rest FPR=0.68
+22:14:58 | decode_cross_subject | INFO | [E5] S094 | acc_at_end=0.867 | best=0.978 @2.75s | rest FPR=0.42
+22:14:58 | decode_cross_subject | INFO | [E5] S098 | acc_at_end=0.644 | best=0.644 @4.00s | rest FPR=0.50
+22:14:58 | decode_cross_subject | INFO | [E5] S101 | acc_at_end=0.511 | best=0.644 @2.00s | rest FPR=0.36
+22:14:58 | decode_cross_subject | INFO | [E5] S105 | acc_at_end=0.444 | best=0.756 @1.50s | rest FPR=0.27
+22:14:59 | decode_cross_subject | INFO | [E5] S106 | acc_at_end=0.600 | best=0.689 @0.75s | rest FPR=0.45
+22:15:05 | decode_cross_subject | INFO | [E8] 训练完成: csp | 70 人 / 3148 窗 | align=euclid adaptive=True
+22:15:05 | decode_cross_subject | INFO | [E8] S001 | acc_at_end=0.622 | best=0.844 @2.25s | rest FPR=0.60
+22:15:05 | decode_cross_subject | INFO | [E8] S005 | acc_at_end=0.422 | best=0.600 @0.75s | rest FPR=0.28
+22:15:05 | decode_cross_subject | INFO | [E8] S012 | acc_at_end=0.533 | best=0.689 @1.75s | rest FPR=0.45
+22:15:06 | decode_cross_subject | INFO | [E8] S015 | acc_at_end=0.644 | best=0.889 @2.00s | rest FPR=0.55
+22:15:06 | decode_cross_subject | INFO | [E8] S022 | acc_at_end=0.444 | best=0.578 @0.50s | rest FPR=0.59
+22:15:06 | decode_cross_subject | INFO | [E8] S027 | acc_at_end=0.600 | best=0.644 @2.75s | rest FPR=0.50
+22:15:06 | decode_cross_subject | INFO | [E8] S031 | acc_at_end=0.778 | best=0.933 @2.50s | rest FPR=0.58
+22:15:06 | decode_cross_subject | INFO | [E8] S038 | acc_at_end=0.311 | best=0.667 @2.25s | rest FPR=0.36
+22:15:06 | decode_cross_subject | INFO | [E8] S065 | acc_at_end=0.689 | best=0.733 @2.50s | rest FPR=0.38
+22:15:07 | decode_cross_subject | INFO | [E8] S077 | acc_at_end=0.444 | best=0.578 @2.00s | rest FPR=0.66
+22:15:07 | decode_cross_subject | INFO | [E8] S078 | acc_at_end=0.511 | best=0.556 @2.75s | rest FPR=0.48
+22:15:07 | decode_cross_subject | INFO | [E8] S080 | acc_at_end=0.622 | best=0.689 @0.50s | rest FPR=0.72
+22:15:07 | decode_cross_subject | INFO | [E8] S081 | acc_at_end=0.533 | best=0.578 @1.00s | rest FPR=0.82
+22:15:07 | decode_cross_subject | INFO | [E8] S094 | acc_at_end=0.822 | best=0.978 @2.75s | rest FPR=0.59
+22:15:08 | decode_cross_subject | INFO | [E8] S098 | acc_at_end=0.600 | best=0.667 @2.50s | rest FPR=0.76
+22:15:08 | decode_cross_subject | INFO | [E8] S101 | acc_at_end=0.444 | best=0.600 @1.75s | rest FPR=0.57
+22:15:08 | decode_cross_subject | INFO | [E8] S105 | acc_at_end=0.511 | best=0.711 @1.50s | rest FPR=0.57
+22:15:08 | decode_cross_subject | INFO | [E8] S106 | acc_at_end=0.556 | best=0.644 @3.50s | rest FPR=0.60
+22:15:08 | decode_cross_subject | INFO | == 模型族 riemann: ['E3', 'E6'] | 频带 [[8, 30]] | 对齐 ['riemann']
+22:15:29 | decode_cross_subject | INFO | 训练被试 70 人, 共 3148 个训练窗
+22:15:35 | decode_cross_subject | INFO | 测试被试 18 人
+22:15:47 | decode_cross_subject | INFO | [E3] 训练完成: riemann | 70 人 / 3148 窗 | align=None adaptive=False
+22:15:48 | decode_cross_subject | INFO | [E3] S001 | acc_at_end=0.622 | best=0.800 @2.00s | rest FPR=0.77
+22:15:49 | decode_cross_subject | INFO | [E3] S005 | acc_at_end=0.489 | best=0.533 @2.50s | rest FPR=0.79
+22:15:50 | decode_cross_subject | INFO | [E3] S012 | acc_at_end=0.578 | best=0.667 @2.00s | rest FPR=0.82
+22:15:51 | decode_cross_subject | INFO | [E3] S015 | acc_at_end=0.622 | best=0.711 @2.50s | rest FPR=0.86
+22:15:52 | decode_cross_subject | INFO | [E3] S022 | acc_at_end=0.489 | best=0.644 @2.50s | rest FPR=0.77
+22:15:53 | decode_cross_subject | INFO | [E3] S027 | acc_at_end=0.578 | best=0.667 @2.75s | rest FPR=0.75
+22:15:54 | decode_cross_subject | INFO | [E3] S031 | acc_at_end=0.778 | best=0.867 @2.25s | rest FPR=0.80
+22:15:55 | decode_cross_subject | INFO | [E3] S038 | acc_at_end=0.511 | best=0.578 @1.00s | rest FPR=0.86
+22:15:56 | decode_cross_subject | INFO | [E3] S065 | acc_at_end=0.533 | best=0.644 @1.75s | rest FPR=0.80
+22:15:56 | decode_cross_subject | INFO | [E3] S077 | acc_at_end=0.467 | best=0.622 @2.00s | rest FPR=0.84
+22:15:57 | decode_cross_subject | INFO | [E3] S078 | acc_at_end=0.511 | best=0.533 @0.50s | rest FPR=0.89
+22:15:58 | decode_cross_subject | INFO | [E3] S080 | acc_at_end=0.467 | best=0.711 @1.50s | rest FPR=0.90
+22:15:59 | decode_cross_subject | INFO | [E3] S081 | acc_at_end=0.489 | best=0.489 @0.50s | rest FPR=1.00
+22:16:00 | decode_cross_subject | INFO | [E3] S094 | acc_at_end=0.644 | best=0.756 @2.50s | rest FPR=0.83
+22:16:01 | decode_cross_subject | INFO | [E3] S098 | acc_at_end=0.578 | best=0.600 @0.50s | rest FPR=0.89
+22:16:02 | decode_cross_subject | INFO | [E3] S101 | acc_at_end=0.444 | best=0.578 @2.50s | rest FPR=0.84
+22:16:03 | decode_cross_subject | INFO | [E3] S105 | acc_at_end=0.511 | best=0.733 @1.25s | rest FPR=0.78
+22:16:04 | decode_cross_subject | INFO | [E3] S106 | acc_at_end=0.489 | best=0.622 @0.50s | rest FPR=0.86
+22:16:14 | decode_cross_subject | INFO | [E6] 训练完成: riemann | 70 人 / 3148 窗 | align=riemann adaptive=False
+22:16:15 | decode_cross_subject | INFO | [E6] S001 | acc_at_end=0.622 | best=0.756 @2.00s | rest FPR=0.81
+22:16:16 | decode_cross_subject | INFO | [E6] S005 | acc_at_end=0.422 | best=0.622 @1.50s | rest FPR=0.76
+22:16:17 | decode_cross_subject | INFO | [E6] S012 | acc_at_end=0.644 | best=0.667 @2.25s | rest FPR=0.71
+22:16:18 | decode_cross_subject | INFO | [E6] S015 | acc_at_end=0.556 | best=0.756 @1.00s | rest FPR=0.81
+22:16:19 | decode_cross_subject | INFO | [E6] S022 | acc_at_end=0.533 | best=0.600 @1.00s | rest FPR=0.78
+22:16:20 | decode_cross_subject | INFO | [E6] S027 | acc_at_end=0.533 | best=0.667 @2.00s | rest FPR=0.76
+22:16:21 | decode_cross_subject | INFO | [E6] S031 | acc_at_end=0.778 | best=0.844 @2.75s | rest FPR=0.84
+22:16:22 | decode_cross_subject | INFO | [E6] S038 | acc_at_end=0.511 | best=0.689 @1.50s | rest FPR=0.79
+22:16:23 | decode_cross_subject | INFO | [E6] S065 | acc_at_end=0.511 | best=0.711 @1.75s | rest FPR=0.74
+22:16:24 | decode_cross_subject | INFO | [E6] S077 | acc_at_end=0.511 | best=0.644 @2.00s | rest FPR=0.80
+22:16:25 | decode_cross_subject | INFO | [E6] S078 | acc_at_end=0.444 | best=0.578 @1.25s | rest FPR=0.82
+22:16:26 | decode_cross_subject | INFO | [E6] S080 | acc_at_end=0.600 | best=0.733 @1.50s | rest FPR=0.85
+22:16:27 | decode_cross_subject | INFO | [E6] S081 | acc_at_end=0.511 | best=0.622 @1.75s | rest FPR=0.86
+22:16:28 | decode_cross_subject | INFO | [E6] S094 | acc_at_end=0.800 | best=0.844 @2.75s | rest FPR=0.85
+22:16:29 | decode_cross_subject | INFO | [E6] S098 | acc_at_end=0.689 | best=0.778 @3.75s | rest FPR=0.82
+22:16:31 | decode_cross_subject | INFO | [E6] S101 | acc_at_end=0.467 | best=0.556 @2.00s | rest FPR=0.76
+22:16:32 | decode_cross_subject | INFO | [E6] S105 | acc_at_end=0.489 | best=0.667 @2.00s | rest FPR=0.83
+22:16:33 | decode_cross_subject | INFO | [E6] S106 | acc_at_end=0.489 | best=0.644 @0.75s | rest FPR=0.80
+22:16:33 | decode_cross_subject | INFO | 均值(测试 18 人): 被试内CSP(W4)=0.615 | 被试内EEGNet(W5)=0.536 | E1 acc_at_end=0.521 best=0.605 restFPR=0.23 | E3 acc_at_end=0.544 best=0.653 restFPR=0.84 | E5 acc_at_end=0.572 best=0.725 restFPR=0.38 | E6 acc_at_end=0.562 best=0.688 restFPR=0.80 | E8 acc_at_end=0.560 best=0.699 restFPR=0.56 -> /Users/erqian/Desktop/util_udf/mi_decoder/results/metrics/cross_subject_online.csv

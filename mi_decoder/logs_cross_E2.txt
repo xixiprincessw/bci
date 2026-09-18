@@ -1,0 +1,24 @@
+22:16:49 | decode_cross_subject | INFO | 可用 88 人 -> 训练 70 人 / 测试 18 人: [1, 5, 12, 15, 22, 27, 31, 38, 65, 77, 78, 80, 81, 94, 98, 101, 105, 106]
+22:16:49 | decode_cross_subject | INFO | == 模型族 fbcsp: ['E2'] | 频带 [[4, 8], [8, 12], [12, 16], [16, 22], [22, 30]] | 对齐 []
+22:17:03 | decode_cross_subject | INFO | 训练被试 70 人, 共 3148 个训练窗
+22:17:06 | decode_cross_subject | INFO | 测试被试 18 人
+22:17:37 | decode_cross_subject | INFO | [E2] 训练完成: fbcsp | 70 人 / 3148 窗 | align=None adaptive=False
+22:17:37 | decode_cross_subject | INFO | [E2] S001 | acc_at_end=0.578 | best=0.689 @0.50s | rest FPR=0.32
+22:17:37 | decode_cross_subject | INFO | [E2] S005 | acc_at_end=0.467 | best=0.489 @0.50s | rest FPR=0.70
+22:17:38 | decode_cross_subject | INFO | [E2] S012 | acc_at_end=0.467 | best=0.600 @2.75s | rest FPR=0.29
+22:17:38 | decode_cross_subject | INFO | [E2] S015 | acc_at_end=0.533 | best=0.689 @1.25s | rest FPR=0.42
+22:17:38 | decode_cross_subject | INFO | [E2] S022 | acc_at_end=0.400 | best=0.667 @1.75s | rest FPR=0.13
+22:17:39 | decode_cross_subject | INFO | [E2] S027 | acc_at_end=0.444 | best=0.711 @2.00s | rest FPR=0.38
+22:17:39 | decode_cross_subject | INFO | [E2] S031 | acc_at_end=0.556 | best=0.756 @2.00s | rest FPR=0.23
+22:17:40 | decode_cross_subject | INFO | [E2] S038 | acc_at_end=0.556 | best=0.667 @2.25s | rest FPR=0.25
+22:17:40 | decode_cross_subject | INFO | [E2] S065 | acc_at_end=0.578 | best=0.622 @3.75s | rest FPR=0.27
+22:17:40 | decode_cross_subject | INFO | [E2] S077 | acc_at_end=0.511 | best=0.622 @3.75s | rest FPR=0.42
+22:17:41 | decode_cross_subject | INFO | [E2] S078 | acc_at_end=0.356 | best=0.622 @2.50s | rest FPR=0.22
+22:17:41 | decode_cross_subject | INFO | [E2] S080 | acc_at_end=0.511 | best=0.622 @0.50s | rest FPR=0.31
+22:17:42 | decode_cross_subject | INFO | [E2] S081 | acc_at_end=0.489 | best=0.511 @3.00s | rest FPR=0.87
+22:17:42 | decode_cross_subject | INFO | [E2] S094 | acc_at_end=0.578 | best=0.600 @2.50s | rest FPR=0.73
+22:17:42 | decode_cross_subject | INFO | [E2] S098 | acc_at_end=0.422 | best=0.600 @0.50s | rest FPR=0.24
+22:17:43 | decode_cross_subject | INFO | [E2] S101 | acc_at_end=0.556 | best=0.556 @4.00s | rest FPR=0.37
+22:17:43 | decode_cross_subject | INFO | [E2] S105 | acc_at_end=0.489 | best=0.756 @1.75s | rest FPR=0.25
+22:17:43 | decode_cross_subject | INFO | [E2] S106 | acc_at_end=0.556 | best=0.622 @0.75s | rest FPR=0.31
+22:17:44 | decode_cross_subject | INFO | 均值(测试 18 人): 被试内CSP(W4)=0.615 | 被试内EEGNet(W5)=0.536 | E2 acc_at_end=0.502 best=0.633 restFPR=0.37 -> /Users/erqian/Desktop/util_udf/mi_decoder/results/metrics/cross_subject_online.csv

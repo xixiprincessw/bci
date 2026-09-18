@@ -1,0 +1,19 @@
+# 环境与缓存
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# 预处理产物 2.2 GB: 只保留 S001 作为示例, 其余用 python -m src.preprocess 重建
+results/processed/*
+!results/processed/S001-epo.fif
+!results/processed/S001_clean_raw.fif
+
+# 每被试 ERD 图 41 MB / 伪在线曲线图 13 MB: 只保留 S001, 其余用 validate_erd / pseudo_online 重建
+results/figures/S*_erd_tfr.png
+results/figures/S*_erd_topo.png
+results/figures/S*_pseudo_online*.png
+!results/figures/S001_erd_tfr.png
+!results/figures/S001_erd_topo.png
+!results/figures/S001_pseudo_online.png
+!results/figures/S001_pseudo_online_eegnet.png

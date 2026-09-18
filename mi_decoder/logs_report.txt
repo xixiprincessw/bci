@@ -1,0 +1,3 @@
+17:44:14 | report | INFO | 报告已生成: /Users/erqian/Desktop/util_udf/mi_decoder/results/report.md
+17:44:14 | report | INFO | CSP vs EEGNet: 均值差=+0.025, Wilcoxon p=0.3484 (n=88) 不显著
+17:44:14 | report | INFO | FBCSP vs CSP: 均值差=-0.014, Wilcoxon p=0.4248 (n=88) 不显著

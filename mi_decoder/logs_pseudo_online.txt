@@ -1,0 +1,1061 @@
+Computing rank from data with rank=None
+    Using tolerance 0.0001 (2.2e-16 eps * 64 dim * 7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:26 | pseudo_online | INFO | S001 | best acc=0.786 @2.25s | ITR=6.7 | rest FPR=0.91
+Computing rank from data with rank=None
+    Using tolerance 7.8e-05 (2.2e-16 eps * 64 dim * 5.5e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:26 | pseudo_online | INFO | S002 | best acc=0.786 @3.75s | ITR=4.0 | rest FPR=0.99
+Computing rank from data with rank=None
+    Using tolerance 9.6e-05 (2.2e-16 eps * 64 dim * 6.8e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:26 | pseudo_online | INFO | S003 | best acc=0.714 @1.75s | ITR=4.7 | rest FPR=0.92
+Computing rank from data with rank=None
+    Using tolerance 2.6e-05 (2.2e-16 eps * 64 dim * 1.9e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:26 | pseudo_online | INFO | S004 | best acc=0.857 @1.50s | ITR=16.3 | rest FPR=0.83
+Computing rank from data with rank=None
+    Using tolerance 4.3e-05 (2.2e-16 eps * 64 dim * 3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:26 | pseudo_online | INFO | S005 | best acc=0.786 @2.00s | ITR=7.5 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 6.6e-05 (2.2e-16 eps * 64 dim * 4.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:27 | pseudo_online | INFO | S006 | best acc=0.643 @0.50s | ITR=7.2 | rest FPR=0.89
+Computing rank from data with rank=None
+    Using tolerance 0.00011 (2.2e-16 eps * 64 dim * 7.9e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:27 | pseudo_online | INFO | S007 | best acc=1.000 @2.00s | ITR=30.0 | rest FPR=0.96
+Computing rank from data with rank=None
+    Using tolerance 4.8e-05 (2.2e-16 eps * 64 dim * 3.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:27 | pseudo_online | INFO | S008 | best acc=0.429 @0.75s | ITR=0.0 | rest FPR=0.93
+Computing rank from data with rank=None
+    Using tolerance 0.00013 (2.2e-16 eps * 64 dim * 8.8e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:27 | pseudo_online | INFO | S009 | best acc=0.714 @3.00s | ITR=2.7 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 8.5e-05 (2.2e-16 eps * 64 dim * 6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:27 | pseudo_online | INFO | S010 | best acc=0.786 @1.50s | ITR=10.0 | rest FPR=0.88
+Computing rank from data with rank=None
+    Using tolerance 3.2e-05 (2.2e-16 eps * 64 dim * 2.3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:27 | pseudo_online | INFO | S011 | best acc=0.786 @1.50s | ITR=10.0 | rest FPR=0.88
+Computing rank from data with rank=None
+    Using tolerance 5.2e-05 (2.2e-16 eps * 64 dim * 3.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:28 | pseudo_online | INFO | S012 | best acc=0.857 @1.50s | ITR=16.3 | rest FPR=0.93
+Computing rank from data with rank=None
+    Using tolerance 0.00021 (2.2e-16 eps * 64 dim * 1.4e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:28 | pseudo_online | INFO | S013 | best acc=0.571 @1.75s | ITR=0.5 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 7.7e-05 (2.2e-16 eps * 64 dim * 5.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:28 | pseudo_online | INFO | S014 | best acc=0.714 @2.75s | ITR=3.0 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 0.00017 (2.2e-16 eps * 64 dim * 1.2e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:28 | pseudo_online | INFO | S015 | best acc=0.857 @1.50s | ITR=16.3 | rest FPR=0.91
+Computing rank from data with rank=None
+    Using tolerance 4.5e-05 (2.2e-16 eps * 64 dim * 3.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:29 | pseudo_online | INFO | S016 | best acc=0.714 @0.50s | ITR=16.4 | rest FPR=0.87
+Computing rank from data with rank=None
+    Using tolerance 0.00012 (2.2e-16 eps * 64 dim * 8.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:29 | pseudo_online | INFO | S017 | best acc=0.786 @0.50s | ITR=30.0 | rest FPR=0.75
+Computing rank from data with rank=None
+    Using tolerance 2e-05 (2.2e-16 eps * 64 dim * 1.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:29 | pseudo_online | INFO | S018 | best acc=0.643 @0.50s | ITR=7.2 | rest FPR=0.89
+Computing rank from data with rank=None
+    Using tolerance 0.00012 (2.2e-16 eps * 64 dim * 8.1e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:29 | pseudo_online | INFO | S019 | best acc=0.571 @1.50s | ITR=0.6 | rest FPR=0.83
+Computing rank from data with rank=None
+    Using tolerance 1.6e-05 (2.2e-16 eps * 64 dim * 1.1e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:29 | pseudo_online | INFO | S020 | best acc=0.500 @0.50s | ITR=0.0 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 4.2e-05 (2.2e-16 eps * 64 dim * 2.9e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:30 | pseudo_online | INFO | S021 | best acc=0.714 @0.50s | ITR=16.4 | rest FPR=0.92
+Computing rank from data with rank=None
+    Using tolerance 9.2e-05 (2.2e-16 eps * 64 dim * 6.5e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:30 | pseudo_online | INFO | S022 | best acc=0.643 @1.75s | ITR=2.0 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 0.00012 (2.2e-16 eps * 64 dim * 8.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:30 | pseudo_online | INFO | S023 | best acc=0.643 @2.50s | ITR=1.4 | rest FPR=1.00
+Computing rank from data with rank=None
+    Using tolerance 0.00024 (2.2e-16 eps * 64 dim * 1.7e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:30 | pseudo_online | INFO | S024 | best acc=0.786 @3.00s | ITR=5.0 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 3.5e-05 (2.2e-16 eps * 64 dim * 2.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:30 | pseudo_online | INFO | S025 | best acc=0.786 @3.75s | ITR=4.0 | rest FPR=0.99
+Computing rank from data with rank=None
+    Using tolerance 2.4e-05 (2.2e-16 eps * 64 dim * 1.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:31 | pseudo_online | INFO | S026 | best acc=0.857 @2.00s | ITR=12.2 | rest FPR=0.91
+Computing rank from data with rank=None
+    Using tolerance 0.00011 (2.2e-16 eps * 64 dim * 7.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:31 | pseudo_online | INFO | S027 | best acc=0.786 @0.75s | ITR=20.0 | rest FPR=0.85
+Computing rank from data with rank=None
+    Using tolerance 0.00011 (2.2e-16 eps * 64 dim * 7.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:31 | pseudo_online | INFO | S028 | best acc=0.571 @3.75s | ITR=0.2 | rest FPR=0.90
+Computing rank from data with rank=None
+    Using tolerance 7.6e-05 (2.2e-16 eps * 64 dim * 5.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:31 | pseudo_online | INFO | S029 | best acc=1.000 @2.50s | ITR=24.0 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 2.5e-05 (2.2e-16 eps * 64 dim * 1.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:31 | pseudo_online | INFO | S030 | best acc=0.714 @0.75s | ITR=11.0 | rest FPR=0.94
+Computing rank from data with rank=None
+    Using tolerance 0.0001 (2.2e-16 eps * 64 dim * 7.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:32 | pseudo_online | INFO | S031 | best acc=1.000 @3.25s | ITR=18.5 | rest FPR=0.85
+Computing rank from data with rank=None
+    Using tolerance 9.1e-05 (2.2e-16 eps * 64 dim * 6.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:32 | pseudo_online | INFO | S032 | best acc=0.857 @2.50s | ITR=9.8 | rest FPR=1.00
+Computing rank from data with rank=None
+    Using tolerance 5.7e-05 (2.2e-16 eps * 64 dim * 4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:32 | pseudo_online | INFO | S033 | best acc=0.857 @2.50s | ITR=9.8 | rest FPR=0.83
+Computing rank from data with rank=None
+    Using tolerance 4.2e-05 (2.2e-16 eps * 64 dim * 3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:32 | pseudo_online | INFO | S034 | best acc=1.000 @2.50s | ITR=24.0 | rest FPR=0.96
+Computing rank from data with rank=None
+    Using tolerance 5.4e-05 (2.2e-16 eps * 64 dim * 3.8e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:32 | pseudo_online | INFO | S035 | best acc=0.857 @3.00s | ITR=8.2 | rest FPR=0.90
+Computing rank from data with rank=None
+    Using tolerance 0.00012 (2.2e-16 eps * 64 dim * 8.1e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:33 | pseudo_online | INFO | S036 | best acc=0.786 @3.75s | ITR=4.0 | rest FPR=0.93
+Computing rank from data with rank=None
+    Using tolerance 2.2e-05 (2.2e-16 eps * 64 dim * 1.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:33 | pseudo_online | INFO | S037 | best acc=0.500 @0.50s | ITR=0.0 | rest FPR=0.96
+Computing rank from data with rank=None
+    Using tolerance 7.7e-05 (2.2e-16 eps * 64 dim * 5.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:33 | pseudo_online | INFO | S038 | best acc=0.643 @3.50s | ITR=1.0 | rest FPR=0.91
+Computing rank from data with rank=None
+    Using tolerance 0.00012 (2.2e-16 eps * 64 dim * 8.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:33 | pseudo_online | INFO | S039 | best acc=0.571 @2.50s | ITR=0.4 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 4.9e-05 (2.2e-16 eps * 64 dim * 3.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:34 | pseudo_online | INFO | S040 | best acc=0.786 @3.50s | ITR=4.3 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 2.3e-05 (2.2e-16 eps * 64 dim * 1.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:34 | pseudo_online | INFO | S041 | best acc=0.571 @2.50s | ITR=0.4 | rest FPR=0.92
+Computing rank from data with rank=None
+    Using tolerance 5.7e-05 (2.2e-16 eps * 64 dim * 4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:34 | pseudo_online | INFO | S042 | best acc=1.000 @2.00s | ITR=30.0 | rest FPR=0.91
+Computing rank from data with rank=None
+    Using tolerance 7.4e-05 (2.2e-16 eps * 64 dim * 5.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:34 | pseudo_online | INFO | S043 | best acc=0.857 @4.00s | ITR=6.1 | rest FPR=0.85
+Computing rank from data with rank=None
+    Using tolerance 0.00023 (2.2e-16 eps * 64 dim * 1.6e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:34 | pseudo_online | INFO | S044 | best acc=0.786 @1.75s | ITR=8.6 | rest FPR=0.79
+Computing rank from data with rank=None
+    Using tolerance 8.8e-05 (2.2e-16 eps * 64 dim * 6.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:35 | pseudo_online | INFO | S045 | best acc=0.714 @3.25s | ITR=2.5 | rest FPR=0.91
+Computing rank from data with rank=None
+    Using tolerance 5.6e-05 (2.2e-16 eps * 64 dim * 3.9e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:35 | pseudo_online | INFO | S046 | best acc=0.643 @0.50s | ITR=7.2 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 2.5e-05 (2.2e-16 eps * 64 dim * 1.8e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:35 | pseudo_online | INFO | S047 | best acc=0.571 @0.75s | ITR=1.2 | rest FPR=0.83
+Computing rank from data with rank=None
+    Using tolerance 0.00028 (2.2e-16 eps * 64 dim * 2e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:35 | pseudo_online | INFO | S048 | best acc=0.786 @2.25s | ITR=6.7 | rest FPR=0.82
+Computing rank from data with rank=None
+    Using tolerance 0.0001 (2.2e-16 eps * 64 dim * 7.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:35 | pseudo_online | INFO | S049 | best acc=0.714 @3.75s | ITR=2.2 | rest FPR=0.95
+Computing rank from data with rank=None
+    Using tolerance 4.5e-05 (2.2e-16 eps * 64 dim * 3.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:36 | pseudo_online | INFO | S050 | best acc=0.714 @1.75s | ITR=4.7 | rest FPR=0.92
+Computing rank from data with rank=None
+    Using tolerance 1e-05 (2.2e-16 eps * 64 dim * 7.1e+08  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:36 | pseudo_online | INFO | S051 | best acc=0.643 @2.25s | ITR=1.6 | rest FPR=0.80
+Computing rank from data with rank=None
+    Using tolerance 0.00016 (2.2e-16 eps * 64 dim * 1.1e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:36 | pseudo_online | INFO | S052 | best acc=0.786 @2.50s | ITR=6.0 | rest FPR=0.92
+Computing rank from data with rank=None
+    Using tolerance 0.00018 (2.2e-16 eps * 64 dim * 1.3e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:36 | pseudo_online | INFO | S053 | best acc=0.929 @1.75s | ITR=21.6 | rest FPR=0.98
+Computing rank from data with rank=None
+    Using tolerance 0.00015 (2.2e-16 eps * 64 dim * 1.1e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:36 | pseudo_online | INFO | S054 | best acc=0.857 @3.25s | ITR=7.5 | rest FPR=0.79
+Computing rank from data with rank=None
+    Using tolerance 2.8e-05 (2.2e-16 eps * 64 dim * 2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:37 | pseudo_online | INFO | S055 | best acc=0.929 @2.50s | ITR=15.1 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 0.00017 (2.2e-16 eps * 64 dim * 1.2e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:37 | pseudo_online | INFO | S056 | best acc=0.857 @2.25s | ITR=10.9 | rest FPR=0.93
+Computing rank from data with rank=None
+    Using tolerance 7.7e-05 (2.2e-16 eps * 64 dim * 5.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:37 | pseudo_online | INFO | S057 | best acc=0.714 @3.75s | ITR=2.2 | rest FPR=0.99
+Computing rank from data with rank=None
+    Using tolerance 8.7e-05 (2.2e-16 eps * 64 dim * 6.1e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:37 | pseudo_online | INFO | S058 | best acc=0.786 @0.75s | ITR=20.0 | rest FPR=0.92
+Computing rank from data with rank=None
+    Using tolerance 9.1e-05 (2.2e-16 eps * 64 dim * 6.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:37 | pseudo_online | INFO | S059 | best acc=0.571 @1.00s | ITR=0.9 | rest FPR=0.86
+Computing rank from data with rank=None
+    Using tolerance 0.00014 (2.2e-16 eps * 64 dim * 9.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:38 | pseudo_online | INFO | S060 | best acc=0.929 @2.50s | ITR=15.1 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 0.00015 (2.2e-16 eps * 64 dim * 1e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:38 | pseudo_online | INFO | S061 | best acc=0.857 @2.75s | ITR=8.9 | rest FPR=0.81
+Computing rank from data with rank=None
+    Using tolerance 5.3e-05 (2.2e-16 eps * 64 dim * 3.8e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:38 | pseudo_online | INFO | S062 | best acc=0.929 @2.50s | ITR=15.1 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 5.7e-05 (2.2e-16 eps * 64 dim * 4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:38 | pseudo_online | INFO | S063 | best acc=0.429 @0.50s | ITR=0.0 | rest FPR=1.00
+Computing rank from data with rank=None
+    Using tolerance 2.5e-05 (2.2e-16 eps * 64 dim * 1.8e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:38 | pseudo_online | INFO | S064 | best acc=0.571 @2.00s | ITR=0.4 | rest FPR=0.95
+Computing rank from data with rank=None
+    Using tolerance 8.9e-05 (2.2e-16 eps * 64 dim * 6.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:39 | pseudo_online | INFO | S065 | best acc=0.929 @2.50s | ITR=15.1 | rest FPR=0.88
+Computing rank from data with rank=None
+    Using tolerance 0.00012 (2.2e-16 eps * 64 dim * 8.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:39 | pseudo_online | INFO | S066 | best acc=0.643 @1.00s | ITR=3.6 | rest FPR=0.80
+Computing rank from data with rank=None
+    Using tolerance 4.4e-05 (2.2e-16 eps * 64 dim * 3.1e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:39 | pseudo_online | INFO | S067 | best acc=0.571 @4.00s | ITR=0.2 | rest FPR=0.50
+Computing rank from data with rank=None
+    Using tolerance 7.5e-05 (2.2e-16 eps * 64 dim * 5.3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:39 | pseudo_online | INFO | S068 | best acc=0.643 @1.75s | ITR=2.0 | rest FPR=0.95
+Computing rank from data with rank=None
+    Using tolerance 6.4e-05 (2.2e-16 eps * 64 dim * 4.5e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:39 | pseudo_online | INFO | S069 | best acc=0.643 @3.00s | ITR=1.2 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 9.3e-05 (2.2e-16 eps * 64 dim * 6.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:40 | pseudo_online | INFO | S070 | best acc=0.857 @1.50s | ITR=16.3 | rest FPR=0.93
+Computing rank from data with rank=None
+    Using tolerance 6.5e-05 (2.2e-16 eps * 64 dim * 4.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:40 | pseudo_online | INFO | S071 | best acc=0.571 @0.50s | ITR=1.8 | rest FPR=0.89
+Computing rank from data with rank=None
+    Using tolerance 1.8e-05 (2.2e-16 eps * 64 dim * 1.3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:40 | pseudo_online | INFO | S072 | best acc=0.857 @3.00s | ITR=8.2 | rest FPR=0.91
+Computing rank from data with rank=None
+    Using tolerance 3.2e-05 (2.2e-16 eps * 64 dim * 2.3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:40 | pseudo_online | INFO | S073 | best acc=0.786 @3.00s | ITR=5.0 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 3.6e-05 (2.2e-16 eps * 64 dim * 2.5e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:40 | pseudo_online | INFO | S074 | best acc=0.714 @1.25s | ITR=6.6 | rest FPR=0.05
+Computing rank from data with rank=None
+    Using tolerance 0.00018 (2.2e-16 eps * 64 dim * 1.3e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:41 | pseudo_online | INFO | S075 | best acc=0.929 @1.75s | ITR=21.6 | rest FPR=0.86
+Computing rank from data with rank=None
+    Using tolerance 2.8e-05 (2.2e-16 eps * 64 dim * 2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:41 | pseudo_online | INFO | S076 | best acc=0.429 @0.50s | ITR=0.0 | rest FPR=0.98
+Computing rank from data with rank=None
+    Using tolerance 0.00011 (2.2e-16 eps * 64 dim * 7.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:41 | pseudo_online | INFO | S077 | best acc=0.571 @0.50s | ITR=1.8 | rest FPR=0.95
+Computing rank from data with rank=None
+    Using tolerance 6.9e-05 (2.2e-16 eps * 64 dim * 4.9e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:41 | pseudo_online | INFO | S078 | best acc=0.786 @2.25s | ITR=6.7 | rest FPR=0.81
+Computing rank from data with rank=None
+    Using tolerance 0.00014 (2.2e-16 eps * 64 dim * 9.8e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:41 | pseudo_online | INFO | S079 | best acc=0.643 @3.50s | ITR=1.0 | rest FPR=0.91
+Computing rank from data with rank=None
+    Using tolerance 5.7e-05 (2.2e-16 eps * 64 dim * 4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:42 | pseudo_online | INFO | S080 | best acc=0.786 @0.50s | ITR=30.0 | rest FPR=0.92
+Computing rank from data with rank=None
+    Using tolerance 4.2e-05 (2.2e-16 eps * 64 dim * 3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:42 | pseudo_online | INFO | S081 | best acc=0.714 @0.75s | ITR=11.0 | rest FPR=0.90
+Computing rank from data with rank=None
+    Using tolerance 7.7e-05 (2.2e-16 eps * 64 dim * 5.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:42 | pseudo_online | INFO | S082 | best acc=0.714 @2.50s | ITR=3.3 | rest FPR=0.86
+Computing rank from data with rank=None
+    Using tolerance 0.00011 (2.2e-16 eps * 64 dim * 7.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:42 | pseudo_online | INFO | S083 | best acc=0.714 @0.50s | ITR=16.4 | rest FPR=0.92
+Computing rank from data with rank=None
+    Using tolerance 9.6e-05 (2.2e-16 eps * 64 dim * 6.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:42 | pseudo_online | INFO | S084 | best acc=0.643 @3.00s | ITR=1.2 | rest FPR=0.87
+Computing rank from data with rank=None
+    Using tolerance 5.3e-05 (2.2e-16 eps * 64 dim * 3.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:43 | pseudo_online | INFO | S085 | best acc=0.929 @1.25s | ITR=30.2 | rest FPR=0.94
+Computing rank from data with rank=None
+    Using tolerance 0.0001 (2.2e-16 eps * 64 dim * 7.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:43 | pseudo_online | INFO | S086 | best acc=0.786 @2.00s | ITR=7.5 | rest FPR=0.43
+Computing rank from data with rank=None
+    Using tolerance 0.00013 (2.2e-16 eps * 64 dim * 9.3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:43 | pseudo_online | INFO | S087 | best acc=0.571 @0.75s | ITR=1.2 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 1.7e-05 (2.2e-16 eps * 64 dim * 1.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:43 | pseudo_online | INFO | S089 | best acc=0.643 @1.50s | ITR=2.4 | rest FPR=0.95
+Computing rank from data with rank=None
+    Using tolerance 8.8e-05 (2.2e-16 eps * 64 dim * 6.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:43 | pseudo_online | INFO | S090 | best acc=0.643 @3.25s | ITR=1.1 | rest FPR=0.93
+Computing rank from data with rank=None
+    Using tolerance 0.00012 (2.2e-16 eps * 64 dim * 8.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:44 | pseudo_online | INFO | S091 | best acc=0.643 @2.50s | ITR=1.4 | rest FPR=0.85
+Computing rank from data with rank=None
+    Using tolerance 4.8e-05 (2.2e-16 eps * 64 dim * 3.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:44 | pseudo_online | INFO | S093 | best acc=0.714 @4.00s | ITR=2.1 | rest FPR=0.98
+Computing rank from data with rank=None
+    Using tolerance 0.00017 (2.2e-16 eps * 64 dim * 1.2e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:44 | pseudo_online | INFO | S094 | best acc=0.786 @3.50s | ITR=4.3 | rest FPR=0.85
+Computing rank from data with rank=None
+    Using tolerance 8.4e-05 (2.2e-16 eps * 64 dim * 5.9e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:44 | pseudo_online | INFO | S095 | best acc=0.500 @0.50s | ITR=0.0 | rest FPR=1.00
+Computing rank from data with rank=None
+    Using tolerance 9.1e-05 (2.2e-16 eps * 64 dim * 6.4e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:44 | pseudo_online | INFO | S096 | best acc=0.714 @4.00s | ITR=2.1 | rest FPR=0.98
+Computing rank from data with rank=None
+    Using tolerance 8.2e-05 (2.2e-16 eps * 64 dim * 5.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:45 | pseudo_online | INFO | S097 | best acc=0.786 @0.75s | ITR=20.0 | rest FPR=0.80
+Computing rank from data with rank=None
+    Using tolerance 6e-05 (2.2e-16 eps * 64 dim * 4.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:45 | pseudo_online | INFO | S098 | best acc=0.714 @2.50s | ITR=3.3 | rest FPR=0.89
+Computing rank from data with rank=None
+    Using tolerance 0.00019 (2.2e-16 eps * 64 dim * 1.3e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:45 | pseudo_online | INFO | S099 | best acc=0.643 @4.00s | ITR=0.9 | rest FPR=0.89
+Computing rank from data with rank=None
+    Using tolerance 6.9e-05 (2.2e-16 eps * 64 dim * 4.8e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:45 | pseudo_online | INFO | S101 | best acc=0.643 @0.50s | ITR=7.2 | rest FPR=0.97
+Computing rank from data with rank=None
+    Using tolerance 2.3e-05 (2.2e-16 eps * 64 dim * 1.6e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:45 | pseudo_online | INFO | S102 | best acc=0.857 @2.25s | ITR=10.9 | rest FPR=0.98
+Computing rank from data with rank=None
+    Using tolerance 0.00017 (2.2e-16 eps * 64 dim * 1.2e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:46 | pseudo_online | INFO | S103 | best acc=0.571 @0.50s | ITR=1.8 | rest FPR=0.70
+Computing rank from data with rank=None
+    Using tolerance 6.7e-05 (2.2e-16 eps * 64 dim * 4.7e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:46 | pseudo_online | INFO | S104 | best acc=0.769 @3.50s | ITR=3.8 | rest FPR=0.84
+Computing rank from data with rank=None
+    Using tolerance 6.1e-05 (2.2e-16 eps * 64 dim * 4.3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:46 | pseudo_online | INFO | S105 | best acc=0.571 @0.50s | ITR=1.8 | rest FPR=0.74
+Computing rank from data with rank=None
+    Using tolerance 0.00013 (2.2e-16 eps * 64 dim * 9.2e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:46 | pseudo_online | INFO | S106 | best acc=0.786 @4.00s | ITR=3.8 | rest FPR=0.79
+Computing rank from data with rank=None
+    Using tolerance 9e-05 (2.2e-16 eps * 64 dim * 6.3e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:46 | pseudo_online | INFO | S107 | best acc=0.786 @2.25s | ITR=6.7 | rest FPR=0.96
+Computing rank from data with rank=None
+    Using tolerance 0.00015 (2.2e-16 eps * 64 dim * 1.1e+10  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:47 | pseudo_online | INFO | S108 | best acc=0.714 @2.00s | ITR=4.1 | rest FPR=0.94
+Computing rank from data with rank=None
+    Using tolerance 7e-05 (2.2e-16 eps * 64 dim * 4.9e+09  max singular value)
+    Estimated rank (data): 64
+    data: rank 64 computed from 64 data channels with 0 projectors
+Reducing data rank from 64 -> 64
+Estimating class=0 covariance using LEDOIT_WOLF
+Done.
+Estimating class=1 covariance using LEDOIT_WOLF
+Done.
+17:40:47 | pseudo_online | INFO | S109 | best acc=0.643 @0.50s | ITR=7.2 | rest FPR=0.86
+17:40:47 | pseudo_online | INFO | 均值: best acc=0.732 | ITR=7.9 bits/min (n=106)

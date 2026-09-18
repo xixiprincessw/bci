@@ -1,0 +1,110 @@
+16:59:31 | decode_eegnet | INFO | device = mps
+/Users/erqian/Desktop/util_udf/mi_decoder/.venv/lib/python3.12/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/Users/erqian/Desktop/util_udf/mi_decoder/.venv/lib/python3.12/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+16:59:57 | decode_eegnet | INFO | S001 | EEGNet acc=0.561 kappa=0.121
+17:00:10 | decode_eegnet | INFO | S002 | EEGNet acc=0.511 kappa=0.018
+17:00:21 | decode_eegnet | INFO | S003 | EEGNet acc=0.523 kappa=0.041
+17:00:30 | decode_eegnet | INFO | S004 | EEGNet acc=0.533 kappa=0.069
+17:00:36 | decode_eegnet | INFO | S005 | EEGNet acc=0.511 kappa=-0.012
+17:00:52 | decode_eegnet | INFO | S006 | EEGNet acc=0.556 kappa=0.091
+17:01:09 | decode_eegnet | INFO | S007 | EEGNet acc=0.762 kappa=0.510
+17:01:17 | decode_eegnet | INFO | S008 | EEGNet acc=0.600 kappa=0.203
+/Users/erqian/Desktop/util_udf/mi_decoder/src/decode_eegnet.py:125: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+/Users/erqian/Desktop/util_udf/mi_decoder/src/decode_eegnet.py:125: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+17:01:28 | decode_eegnet | INFO | S010 | EEGNet acc=0.571 kappa=-0.024
+17:01:37 | decode_eegnet | INFO | S011 | EEGNet acc=0.477 kappa=-0.045
+17:01:50 | decode_eegnet | INFO | S012 | EEGNet acc=0.591 kappa=0.177
+17:01:54 | decode_eegnet | INFO | S014 | EEGNet acc=0.489 kappa=-0.022
+17:02:11 | decode_eegnet | INFO | S015 | EEGNet acc=0.838 kappa=0.671
+17:02:23 | decode_eegnet | INFO | S016 | EEGNet acc=0.622 kappa=0.240
+17:02:37 | decode_eegnet | INFO | S018 | EEGNet acc=0.733 kappa=0.467
+17:02:43 | decode_eegnet | INFO | S019 | EEGNet acc=0.545 kappa=0.052
+17:02:55 | decode_eegnet | INFO | S020 | EEGNet acc=0.578 kappa=0.159
+17:03:14 | decode_eegnet | INFO | S021 | EEGNet acc=0.750 kappa=0.502
+17:03:22 | decode_eegnet | INFO | S022 | EEGNet acc=0.800 kappa=0.598
+17:03:24 | decode_eegnet | INFO | S023 | EEGNet acc=0.545 kappa=0.120
+17:03:28 | decode_eegnet | INFO | S025 | EEGNet acc=0.356 kappa=-0.299
+17:03:36 | decode_eegnet | INFO | S026 | EEGNet acc=0.400 kappa=-0.209
+17:03:44 | decode_eegnet | INFO | S027 | EEGNet acc=0.425 kappa=-0.150
+17:03:53 | decode_eegnet | INFO | S028 | EEGNet acc=0.500 kappa=0.000
+17:04:08 | decode_eegnet | INFO | S029 | EEGNet acc=0.644 kappa=0.284
+17:04:16 | decode_eegnet | INFO | S030 | EEGNet acc=0.467 kappa=-0.078
+17:04:33 | decode_eegnet | INFO | S031 | EEGNet acc=0.511 kappa=0.016
+17:04:41 | decode_eegnet | INFO | S032 | EEGNet acc=0.714 kappa=0.391
+17:04:47 | decode_eegnet | INFO | S033 | EEGNet acc=0.378 kappa=-0.250
+17:04:59 | decode_eegnet | INFO | S034 | EEGNet acc=0.605 kappa=0.211
+17:05:20 | decode_eegnet | INFO | S035 | EEGNet acc=0.756 kappa=0.509
+17:05:31 | decode_eegnet | INFO | S036 | EEGNet acc=0.694 kappa=0.389
+17:05:41 | decode_eegnet | INFO | S037 | EEGNet acc=0.349 kappa=-0.306
+17:05:53 | decode_eegnet | INFO | S038 | EEGNet acc=0.409 kappa=-0.199
+17:06:10 | decode_eegnet | INFO | S040 | EEGNet acc=0.698 kappa=0.390
+17:06:21 | decode_eegnet | INFO | S041 | EEGNet acc=0.614 kappa=0.224
+17:06:38 | decode_eegnet | INFO | S042 | EEGNet acc=0.444 kappa=-0.117
+17:06:49 | decode_eegnet | INFO | S043 | EEGNet acc=0.591 kappa=0.168
+17:07:02 | decode_eegnet | INFO | S045 | EEGNet acc=0.487 kappa=-0.026
+17:07:09 | decode_eegnet | INFO | S046 | EEGNet acc=0.475 kappa=-0.050
+17:07:17 | decode_eegnet | INFO | S047 | EEGNet acc=0.489 kappa=-0.012
+/Users/erqian/Desktop/util_udf/mi_decoder/src/decode_eegnet.py:125: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+/Users/erqian/Desktop/util_udf/mi_decoder/src/decode_eegnet.py:125: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+17:07:25 | decode_eegnet | INFO | S049 | EEGNet acc=0.538 kappa=0.025
+17:07:34 | decode_eegnet | INFO | S050 | EEGNet acc=0.622 kappa=0.248
+17:07:54 | decode_eegnet | INFO | S051 | EEGNet acc=0.756 kappa=0.507
+/Users/erqian/Desktop/util_udf/mi_decoder/src/decode_eegnet.py:125: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+/Users/erqian/Desktop/util_udf/mi_decoder/src/decode_eegnet.py:125: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+17:08:10 | decode_eegnet | INFO | S054 | EEGNet acc=0.647 kappa=0.277
+17:08:31 | decode_eegnet | INFO | S055 | EEGNet acc=0.556 kappa=0.111
+17:08:35 | decode_eegnet | INFO | S057 | EEGNet acc=0.619 kappa=0.229
+17:08:49 | decode_eegnet | INFO | S058 | EEGNet acc=0.636 kappa=0.261
+17:08:58 | decode_eegnet | INFO | S059 | EEGNet acc=0.543 kappa=0.070
+17:09:07 | decode_eegnet | INFO | S060 | EEGNet acc=0.641 kappa=0.285
+17:09:24 | decode_eegnet | INFO | S062 | EEGNet acc=0.756 kappa=0.510
+17:09:32 | decode_eegnet | INFO | S063 | EEGNet acc=0.512 kappa=0.026
+17:09:38 | decode_eegnet | INFO | S064 | EEGNet acc=0.386 kappa=-0.232
+17:09:50 | decode_eegnet | INFO | S065 | EEGNet acc=0.614 kappa=0.234
+17:10:06 | decode_eegnet | INFO | S066 | EEGNet acc=0.545 kappa=0.091
+17:10:11 | decode_eegnet | INFO | S067 | EEGNet acc=0.578 kappa=0.153
+17:10:16 | decode_eegnet | INFO | S068 | EEGNet acc=0.629 kappa=0.240
+17:10:26 | decode_eegnet | INFO | S069 | EEGNet acc=0.578 kappa=0.144
+17:10:46 | decode_eegnet | INFO | S070 | EEGNet acc=0.864 kappa=0.727
+17:11:04 | decode_eegnet | INFO | S071 | EEGNet acc=0.872 kappa=0.742
+17:11:17 | decode_eegnet | INFO | S072 | EEGNet acc=0.535 kappa=0.071
+17:11:23 | decode_eegnet | INFO | S073 | EEGNet acc=0.429 kappa=-0.143
+17:11:32 | decode_eegnet | INFO | S074 | EEGNet acc=0.558 kappa=0.115
+17:11:37 | decode_eegnet | INFO | S076 | EEGNet acc=0.595 kappa=0.190
+17:11:48 | decode_eegnet | INFO | S077 | EEGNet acc=0.515 kappa=0.026
+17:12:01 | decode_eegnet | INFO | S078 | EEGNet acc=0.558 kappa=0.121
+17:12:08 | decode_eegnet | INFO | S079 | EEGNet acc=0.464 kappa=-0.071
+17:12:16 | decode_eegnet | INFO | S080 | EEGNet acc=0.545 kappa=0.081
+17:12:32 | decode_eegnet | INFO | S081 | EEGNet acc=0.644 kappa=0.287
+17:12:37 | decode_eegnet | INFO | S082 | EEGNet acc=0.477 kappa=-0.045
+17:12:46 | decode_eegnet | INFO | S083 | EEGNet acc=0.419 kappa=-0.203
+17:12:54 | decode_eegnet | INFO | S084 | EEGNet acc=0.515 kappa=0.033
+17:13:07 | decode_eegnet | INFO | S085 | EEGNet acc=0.500 kappa=0.000
+17:13:12 | decode_eegnet | INFO | S087 | EEGNet acc=0.553 kappa=0.100
+17:13:19 | decode_eegnet | INFO | S089 | EEGNet acc=0.467 kappa=-0.071
+/Users/erqian/Desktop/util_udf/mi_decoder/src/decode_eegnet.py:125: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+/Users/erqian/Desktop/util_udf/mi_decoder/src/decode_eegnet.py:125: RuntimeWarning: epochs._get_data() can't run because this Epochs-object is empty. You might want to check Epochs.drop_log or Epochs.plot_drop_log() to see why epochs were dropped.
+  epochs = mne.read_epochs(fpath, preload=True, verbose=False)
+17:13:34 | decode_eegnet | INFO | S093 | EEGNet acc=0.622 kappa=0.242
+17:13:43 | decode_eegnet | INFO | S094 | EEGNet acc=0.622 kappa=0.240
+17:13:52 | decode_eegnet | INFO | S096 | EEGNet acc=0.545 kappa=0.078
+17:14:01 | decode_eegnet | INFO | S097 | EEGNet acc=0.600 kappa=0.194
+17:14:07 | decode_eegnet | INFO | S098 | EEGNet acc=0.467 kappa=-0.065
+17:14:27 | decode_eegnet | INFO | S101 | EEGNet acc=0.778 kappa=0.554
+17:14:35 | decode_eegnet | INFO | S102 | EEGNet acc=0.476 kappa=-0.048
+17:14:48 | decode_eegnet | INFO | S103 | EEGNet acc=0.571 kappa=0.149
+17:14:55 | decode_eegnet | INFO | S104 | EEGNet acc=0.524 kappa=0.048
+17:15:15 | decode_eegnet | INFO | S105 | EEGNet acc=0.864 kappa=0.727
+17:15:26 | decode_eegnet | INFO | S106 | EEGNet acc=0.568 kappa=0.126
+17:15:29 | decode_eegnet | INFO | S107 | EEGNet acc=0.345 kappa=-0.367
+17:15:33 | decode_eegnet | INFO | S108 | EEGNet acc=0.667 kappa=0.329
+17:15:33 | decode_eegnet | INFO | 均值: EEGNet acc=0.573 (n=88) -> /Users/erqian/Desktop/util_udf/mi_decoder/results/metrics/eegnet_results.csv
