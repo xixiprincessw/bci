@@ -3,7 +3,8 @@
 只读 results/metrics/ 下已有的 csv, 不重跑任何解码。输出到 results/figures/:
   erd_vs_csp_acc.png                  §3   ERD 强度 vs CSP 准确率, 88 人散点
   causal_vs_zerophase.png             §6.2 因果 / 零相位滤波: 脉冲响应 + 包络延迟
-  pseudo_online_csp_vs_eegnet.png     §6.6 106 人伪在线延迟-精度曲线, CSP vs EEGNet
+  pseudo_online_csp_vs_eegnet.png     §6.5 106 人伪在线延迟-精度曲线, CSP vs EEGNet
+  within_subject_summary.png          §7   总结图: 同 88 人, 三种方法离线 + 两种方法在线的分布
 
 运行: python -m src.plot_article
 """
@@ -129,10 +130,54 @@ def plot_pseudo_online_curves(paths):
     return out
 
 
+def plot_within_subject_summary(paths):
+    """中篇的效果总结: 同 88 人, 离线 CSP/FBCSP/EEGNet + 在线 CSP/EEGNet (acc_at_end)."""
+    m = paths["metrics_dir"]
+    csp = pd.read_csv(m / "csp_results.csv")
+    eeg = pd.read_csv(m / "eegnet_results.csv")
+    on_c = pd.read_csv(m / "pseudo_online_results.csv")[["subject", "acc_at_end"]]
+    on_e = pd.read_csv(m / "pseudo_online_eegnet_results.csv")[["subject", "acc_at_end"]]
+    d = (csp.merge(eeg, on="subject")
+            .merge(on_c.rename(columns={"acc_at_end": "online_csp"}), on="subject")
+            .merge(on_e.rename(columns={"acc_at_end": "online_eegnet"}), on="subject"))
+
+    cols = [("csp_acc", "CSP", "C0"), ("fbcsp_acc", "FBCSP", "C2"), ("eegnet_acc", "EEGNet", "C3"),
+            ("online_csp", "CSP", "C0"), ("online_eegnet", "EEGNet", "C3")]
+    xs = [0, 1, 2, 3.6, 4.6]  # 离线三列与在线两列之间留一道空隙
+
+    fig, ax = plt.subplots(figsize=(9, 5))
+    rng = np.random.default_rng(0)
+    for x, (col, label, c) in zip(xs, cols):
+        v = d[col].values
+        ax.boxplot(v, positions=[x], widths=0.5, showfliers=False, showmeans=False,
+                   medianprops=dict(color="k", lw=1.2),
+                   boxprops=dict(color=c), whiskerprops=dict(color=c), capprops=dict(color=c))
+        ax.scatter(x + rng.uniform(-0.18, 0.18, len(v)), v, s=12, color=c, alpha=0.45)
+        ax.text(x, 1.04, f"{v.mean():.3f}", ha="center", va="bottom", fontsize=11, fontweight="bold")
+    ax.axhline(0.5, color="gray", ls="--", lw=1)
+    ax.axvline(2.8, color="gray", lw=0.8, alpha=0.5)
+    ax.set_xticks(xs)
+    ax.set_xticklabels([label for _, label, _ in cols])
+    # 组标签放在坐标轴下方, 不和最低的点重叠
+    ax.text(1.0, -0.11, "离线 5 折 CV", ha="center", fontsize=11, transform=ax.get_xaxis_transform())
+    ax.text(4.1, -0.11, "伪在线 (因果滤波, 4.0 s 决策点)", ha="center", fontsize=11,
+            transform=ax.get_xaxis_transform())
+    ax.set_ylim(0.18, 1.1)
+    ax.set_ylabel("准确率 (每点一人, 黑线为中位数, 顶部数字为均值)")
+    ax.set_title(f"被试内解码, 同 {len(d)} 人: 方法之间差不到 0.06, 人与人之间差 0.2~1.0")
+    ax.grid(axis="y", alpha=0.3)
+    fig.tight_layout()
+    out = paths["fig_dir"] / "within_subject_summary.png"
+    fig.savefig(out, dpi=150)
+    plt.close(fig)
+    return out
+
+
 def main():
     cfg = load_config()
     paths = ensure_dirs(cfg)
-    for fn in (plot_erd_vs_acc, plot_causal_vs_zerophase, plot_pseudo_online_curves):
+    for fn in (plot_erd_vs_acc, plot_causal_vs_zerophase, plot_pseudo_online_curves,
+               plot_within_subject_summary):
         log.info("-> %s", fn(paths))
 
 
