@@ -1,0 +1,5 @@
+__pycache__/
+cache/
+runs/
+.DS_Store
+.ipynb_checkpoints/
