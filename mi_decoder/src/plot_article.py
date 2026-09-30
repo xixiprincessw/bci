@@ -3,7 +3,7 @@
 只读 results/metrics/ 下已有的 csv, 不重跑任何解码。输出到 results/figures/:
   erd_vs_csp_acc.png                  §3   ERD 强度 vs CSP 准确率, 88 人散点
   causal_vs_zerophase.png             §6.2 因果 / 零相位滤波: 脉冲响应 + 包络延迟
-  pseudo_online_csp_vs_eegnet.png     §6.5 106 人伪在线延迟-精度曲线, CSP vs EEGNet
+  pseudo_online_csp_vs_eegnet.png     §6.5 88 人伪在线延迟-精度曲线, CSP vs EEGNet
   within_subject_summary.png          §7   总结图: 同 88 人, 三种方法离线 + 两种方法在线的分布
 
 运行: python -m src.plot_article
@@ -106,10 +106,13 @@ def plot_causal_vs_zerophase(paths, fs=160):
 
 
 def plot_pseudo_online_curves(paths):
+    # 伪在线跑了106人, 只画与离线同池的 88 人
+    pool = set(pd.read_csv(paths["metrics_dir"] / "csp_results.csv").subject)
     fig, ax = plt.subplots(figsize=(8, 4.8))
     for fname, c, label in [("pseudo_online_curves.csv", "C0", "CSP+LDA"),
                             ("pseudo_online_eegnet_curves.csv", "C3", "EEGNet")]:
         cur = pd.read_csv(paths["metrics_dir"] / fname)
+        cur = cur[cur.subject.isin(pool)]
         g = cur.groupby("offset").acc
         m, se = g.mean(), g.std() / np.sqrt(g.count())
         n = cur.subject.nunique()
